@@ -1,0 +1,254 @@
+/* ************************** header *****************************/
+
+.header {
+  padding: 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0518a8d9;
+  width: auto;
+  margin-right: -100px;
+  margin-left: -8px;
+  margin-top: -7px;
+}
+
+.logo {
+  color: rgb(222, 236, 236);
+  margin-left: 130px;
+  font-size: 18px;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.logo h3,
+.logo h2 {
+  display: inline;
+}
+
+.logo h2 {
+  margin-right: 10px;
+  border-right: 1px solid rgb(168, 117, 15);
+  padding-right: 10px;
+}
+
+.logo h2::before {
+  content: ""; /* Code pour le caractère cercle (•) */
+  display: inline-block;
+  width: 20px; /* Ajustez la taille du cercle selon vos besoins */
+  height: 20px; /* Ajustez la taille du cercle selon vos besoins */
+  border-radius: 50%;
+  background-color: #05ee2c; /* Couleur du cercle */
+  margin-right: 10px; /* Espace entre le cercle et le texte */
+}
+
+.menu {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 130px;
+}
+
+.menu_item {
+  margin-left: 40px;
+  cursor: pointer;
+  color: rgb(222, 236, 236);
+  color: inherit;
+  font-size: 20px;
+}
+
+.menu_item a:link,
+.menu_item a:visited {
+  text-decoration: none;
+  color: rgb(222, 236, 236);
+}
+
+.menu_item a:hover,
+.menu_item a:active {
+  text-decoration: none;
+  color: #ebe70f;
+}
+
+/* ***************************** body***************************** */
+
+body {
+  background-color: whitesmoke;
+}
+
+.card {
+  background-color: #beb6a56a;
+  width: 1155px;
+  height: 720px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-120%, -35%); /* Ajuste la position de la carte */
+  padding: 20px;
+  box-sizing: border-box;
+}
+.profil {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+  position: relative;
+}
+
+.profil h1 {
+  font-size: 50px;
+  position: relative;
+  top: 10%;
+}
+
+.profil h3 {
+  font-size: 25px;
+  position: relative;
+  top: 2%;
+}
+
+.profil p {
+  font-size: 20px;
+  color: black;
+  position: relative;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 30px;
+  position: relative;
+  top: 15%;
+}
+
+.button_cv {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(235 255 0 / 99%);
+  color: black;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profil button {
+  margin-right: 5px;
+}
+
+.button_projets {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(68 255 0 / 67%);
+  color: black;
+}
+
+.button_contact {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: aqua;
+  color: black;
+}
+
+.lien a:link,
+.lien a:visited {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+.lien a:hover,
+.lien a:active {
+  text-decoration: none;
+  color: blue;
+   font-size: 14px;
+}
+
+/* ********************************* footer ***************************/
+
+footer {
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 380px;
+  border-top: 2px solid black;
+}
+
+.footer_section {
+  flex: 1;
+  margin-right: 50px;
+  margin-left: 70px;
+}
+
+.footer_section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_section img {
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  margin-bottom: -3px;
+}
+
+.footer_section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* *********************** responsivité sur les téléphones******************************* */
+
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .logo {
+   margin: 10px 0;
+   text-align: center;
+  }
+
+  .menu {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+  }
+
+  .menu_item {
+    color: white;
+    margin-right: -25px;
+  }
+
+
+  .profil {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .button_cv,
+  .button_projets,
+  .button_contact {
+    /* margin: 10px 0; */
+    margin-left: 40px;
+  }
+
+   footer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .footer_section {
+    margin: 0;
+  }
+}
