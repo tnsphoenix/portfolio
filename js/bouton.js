@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var btnCV = document.getElementById("btnCV");
   if (btnCV) {
     btnCV.onclick = function () {
-      window.location.href = "../pages/cv.html";
+      window.location.href = "/pages/cv.html";
     };
   }
 
@@ -22,7 +22,3 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-function toggleMenu() {
-  var menuContainer = document.querySelector(".menu-container");
-  menuContainer.classList.toggle("menu-visible");
-}
