@@ -80,15 +80,18 @@
   object-fit: cover;
   border-radius: 6px 6px 0 0;
   margin-right: 40px;
-  margin-top: -25px;
+  margin-top: -95px;
   margin-left: 7px;
+
 }
 
 .card_img {
   width: auto;
-  height: auto;
+  height: 320px;
   margin-right: 0px;
   border-radius: 0px 6px 6px 0px;
+   margin-bottom: 200px; 
+ 
 }
 
 .background_img_paire {
@@ -148,6 +151,7 @@
     height: 300px; 
     margin: 10px 0; 
     object-fit: cover;
+     
   }
 
   .card_projet span h3 {
