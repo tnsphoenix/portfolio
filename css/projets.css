@@ -25,7 +25,7 @@
 .description p {
   margin-left: -80px;
   margin-bottom: 30px;
-  font-size: larger;
+  font-size: 22px;
 }
 
 .description h1 {
@@ -64,7 +64,7 @@
   margin-left: 10px;
   padding-right: 10px;
   margin-top: 20px;
-  font-size: larger;
+  font-size: 22px;
 }
 
 .card_projet span h3 {

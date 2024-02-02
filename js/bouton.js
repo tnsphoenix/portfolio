@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var btnCV = document.getElementById("btnCV");
   if (btnCV) {
     btnCV.onclick = function () {
-      window.location.href = "/pages/cv.html";
+      window.location.href = "../pages/cv.html";
     };
   }
 

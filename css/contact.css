@@ -40,7 +40,7 @@ form {
 }
 
 label {
-  font-size: 16px;
+  font-size: 19px;
   color: #333;
   margin-bottom: 10px;
 }
@@ -52,7 +52,7 @@ textarea {
   border-bottom: 1px solid #ccc;
   background-color: transparent;
   width: 100%;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 input[type="submit"] {
