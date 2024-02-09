@@ -58,8 +58,14 @@
   font-size: 22px;
 }
 
+.card_cv p br {
+  display: block;
+  content: "";
+  margin-bottom: 8px;
+}
+
 .card_cv h4 strong {
-  font-size: 27px;
+  font-size: 24px;
   margin-right: 50px;
 }
 
@@ -100,6 +106,9 @@
     margin-bottom: 0;
   }
 
+  .description h1 {
+    margin-left: -10px;
+  }
   .card_cv {
     height: auto;
     margin-bottom: 20px;
@@ -107,22 +116,27 @@
 
   .card_cv h2 {
     margin-top: 20px;
+    margin-left: 20px;
   }
 
   .card_cv p {
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 50px;
+    font-size: 20px;
   }
 
   .card_cv h4 strong {
     font-size: 20px;
-    margin-right: 0;
+    /* margin-right: px; */
+     margin-left: 2px;
+     align-items: center;
   }
 
   .card_cv h4 {
     font-size: 18px;
-    margin-left: 0;
-    margin-right: 0;
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+     margin-left: 2px;
+     margin-bottom: -20px;
   }
 
   .card_cv span h3 {

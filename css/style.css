@@ -109,7 +109,14 @@ body {
   color: black;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
-   top: 15%;
+  top: 15%;
+
+}
+
+.profil p br {
+  display: block;
+  content: "";
+  margin-bottom: 10px; /* Ajout d'un espacement après chaque saut de ligne */
 }
 
 img {
@@ -283,5 +290,20 @@ footer {
 
   .footer_section {
     margin: 0;
+  }
+}
+
+/* *********************** responsivité sur les ordinateurs******************************* */
+@media screen and (min-width: 974px) {
+  /* footer {
+    justify-content: space-between;
+    margin-top: 20px;
+  }  */
+
+  
+
+  .footer_section {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
