@@ -31,13 +31,13 @@
 }
 
 .logo h2::before {
-  content: ""; /* Code pour le caractère cercle (•) */
+  content: ""; 
   display: inline-block;
-  width: 20px; /* Ajustez la taille du cercle selon vos besoins */
-  height: 20px; /* Ajustez la taille du cercle selon vos besoins */
+  width: 20px;
+  height: 20px; 
   border-radius: 50%;
-  background-color: #05ee2c; /* Couleur du cercle */
-  margin-right: 10px; /* Espace entre le cercle et le texte */
+  background-color: #05ee2c; 
+  margin-right: 10px; 
 }
 
 .menu {
